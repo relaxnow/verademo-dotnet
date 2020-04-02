@@ -42,7 +42,7 @@ steps:
     apiKey: '$(veracode.apiKey)'
     veracodeAppProfile: '$(system.teamProject)'
     version: '$(build.buildNumber)'
-    filepath: '$(build.artifactstagingdirectory)'
+    filepath: '$(build.artifactstagingdirectory)\_PublishedWebsites\VeraDemoNet_Package\VeraDemoNet.zip'
     createSandBox: false
     createProfile: false
     failTheBuildIfVeracodeScanDidNotInitiate: false
