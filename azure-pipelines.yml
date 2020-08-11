@@ -47,5 +47,5 @@ steps:
     createProfile: false
     failTheBuildIfVeracodeScanDidNotInitiate: false
     scanStatusCheckInterval: '60'
-    importResults: false
+    importResults: true
     failBuildOnPolicyFail: false
